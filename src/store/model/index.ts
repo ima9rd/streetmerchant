@@ -101,6 +101,9 @@ import {Wipoid} from './wipoid';
 import {Xbox} from './xbox';
 import {Zotac} from './zotac';
 import {logger} from '../../logger';
+import {Costco} from './costco';
+import {SamsClub} from './samsclub';
+
 
 export const storeList = new Map([
 	[Adorama.name, Adorama],
@@ -202,7 +205,9 @@ export const storeList = new Map([
 	[WalmartCa.name, WalmartCa],
 	[Wipoid.name, Wipoid],
 	[Xbox.name, Xbox],
-	[Zotac.name, Zotac]
+	[Zotac.name, Zotac],
+	[SamsClub.name, SamsClub],
+	[Costco.name, Costco]
 ]);
 
 const brands = new Set();
