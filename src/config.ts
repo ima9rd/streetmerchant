@@ -299,6 +299,9 @@ const notifications = {
 		consumerKey: envOrString(process.env.TWITTER_CONSUMER_KEY),
 		consumerSecret: envOrString(process.env.TWITTER_CONSUMER_SECRET),
 		tweetTags: envOrString(process.env.TWITTER_TWEET_TAGS)
+	},
+	api: {
+		url: envOrString(process.env.API_NOTIFICATION_URL)
 	}
 };
 
