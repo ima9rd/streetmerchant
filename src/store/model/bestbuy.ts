@@ -2,17 +2,39 @@ import {Store} from './store';
 
 export const BestBuy: Store = {
 	currency: '$',
-	labels: {
-		inStock: {
-			container:
-				'[data-sticky-media-gallery] .fulfillment-add-to-cart-button',
-			text: ['add to cart']
-		},
-		maxPrice: {
-			container:
-				'[data-sticky-media-gallery] .priceView-price .priceView-hero-price span'
-		}
-	},
+    labels: {
+        inStock: [
+        {
+            container: '[data-sticky-media-gallery] .fulfillment-add-to-cart-button',
+            text: ['add to cart']
+        },
+        {
+            container: '[data-sticky-media-gallery] .fulfillment-add-to-cart-button',
+            text: ['pre-order']
+        },
+        {
+            container: '[data-sticky-media-gallery] .fulfillment-add-to-cart-button',
+            text: ['find a store']
+        },
+        {
+            container: '.fulfillment-combo-add-to-cart-button',
+            text: ['add to cart']
+        },
+        {
+            container: '.fulfillment-combo-add-to-cart-button',
+            text: ['pre-order']
+        },
+        {
+            container: '.fulfillment-combo-add-to-cart-button',
+            text: ['find a store']
+        }
+    ],
+        maxPrice: {
+            container:
+                '[data-sticky-media-gallery] .priceView-price .priceView-hero-price span',
+            euroFormat: false
+        }
+    },
 	links: [
 		{
 			brand: 'test:brand',
@@ -396,6 +418,62 @@ export const BestBuy: Store = {
 			series: 'sonyps5de',
 			url:
 				'https://www.bestbuy.com/site/sony-playstation-5-digital-edition-console/6430161.p?skuId=6430161&intl=nosplash'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/a1713c83-3857-40f9-9d8c-cef2c5d50ee4'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/8f146095-0a5f-4993-b123-711a1d34745b'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/c471fae2-1d2c-4870-ad3d-d39bffa39af2'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/740930c8-1f24-4ff7-95a7-9ded61ff10f9'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 console',
+			series: 'sonyps5c',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/96be4c49-d98e-47c6-9a68-291c646d0e47'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/5f8731a3-c665-4789-aa67-f3ce72cb917f'
+		},
+		{
+			brand: 'sony',
+			cartUrl: 'https://api.bestbuy.com/click/-/6430161/cart',
+			model: 'ps5 digital',
+			series: 'sonyps5de',
+			url:
+				'https://www.bestbuy.com/site/combo/ps5-consoles/9a82524f-1d01-428b-b41a-e6dea18316a3'
 		},
 		{
 			brand: 'microsoft',

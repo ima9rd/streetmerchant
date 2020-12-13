@@ -11,6 +11,14 @@ export const Target: Store = {
 			{
 				container: '[data-test="shipItButton"]',
 				text: ['Ship it']
+			},
+			{
+				container: '[data-test="orderPickupButton"]',
+				text: ['Pick it up']
+			},
+			{
+				container: '[data-test="orderPickupMessage"]',
+				text: ['Pick up']
 			}
 		],
 		maxPrice: {
