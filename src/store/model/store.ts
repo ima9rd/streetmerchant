@@ -32,6 +32,7 @@ export type Brand =
 	| 'sapphire'
 	| 'sony'
 	| 'xfx'
+	| 'powerblock'
 	| 'powercolor'
 	| 'zotac';
 
@@ -42,6 +43,8 @@ export type Series =
 	| '3080'
 	| '3090'
 	| 'darkhero'
+	| 'eliteexp'
+	| 'pro'
 	| 'rx6800'
 	| 'rx6800xt'
 	| 'rx6900xt'
@@ -78,6 +81,7 @@ export type Model =
 	| 'dual'
 	| 'eagle oc'
 	| 'eagle'
+	| 'elite'
 	| 'founders edition'
 	| 'ftw3'
 	| 'ftw3 ultra'
