@@ -14,6 +14,7 @@ import {sendTelegramMessage} from './telegram';
 import {sendTweet} from './twitter';
 import {sendTwilioMessage} from './twilio';
 import {sendTwitchMessage} from './twitch';
+import {sendAPIPost} from './api';
 
 export function sendNotification(link: Link, store: Store) {
 	// Priority
@@ -22,6 +23,7 @@ export function sendNotification(link: Link, store: Store) {
 	sendDesktopNotification(link, store);
 	sendEmail(link, store);
 	sendSms(link, store);
+	sendAPIPost(link, store);
 	// Non-priority
 	adjustPhilipsHueLights();
 	sendMqttMessage(link, store);
