@@ -82,6 +82,7 @@ import {PCKing} from './pcking';
 import {Pccg} from './pccg';
 import {PlayStation} from './playstation';
 import {Pny} from './pny';
+import {Powerblock} from './powerblock';
 import {ProshopDE} from './proshop-de';
 import {ProshopDK} from './proshop-dk';
 import {Saturn} from './saturn';
@@ -194,6 +195,7 @@ export const storeList = new Map([
 	[PCComponentes.name, PCComponentes],
 	[PlayStation.name, PlayStation],
 	[Pny.name, Pny],
+	[Powerblock.name, Powerblock],
 	[ProshopDE.name, ProshopDE],
 	[ProshopDK.name, ProshopDK],
 	[Saturn.name, Saturn],
