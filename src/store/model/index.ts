@@ -29,6 +29,7 @@ import {Azerty} from './azerty';
 import {BAndH} from './bandh';
 import {BestBuy} from './bestbuy';
 import {BestBuyCa} from './bestbuy-ca';
+import {Bowflex} from './bowflex';
 import {Box} from './box';
 import {Bpctech} from './bpctech';
 import {CanadaComputers} from './canadacomputers';
@@ -142,6 +143,7 @@ export const storeList = new Map([
 	[BAndH.name, BAndH],
 	[BestBuy.name, BestBuy],
 	[BestBuyCa.name, BestBuyCa],
+	[Bowflex.name, Bowflex],
 	[Box.name, Box],
 	[Bpctech.name, Bpctech],
 	[Caseking.name, Caseking],
